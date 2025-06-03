@@ -22,7 +22,7 @@ const Login = () => {
 			sessionStorage.setItem("token", data.access_token); // GUARDAR EN sessionStorage
 
 			alert("Login exitoso");
-			navigate("/"); // puedes redirigir a Home u otra página
+			navigate("/"); // redirige a Home
 		} catch (error) {
 			alert("Error al iniciar sesión");
 		}
